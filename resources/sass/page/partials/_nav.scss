@@ -1,0 +1,47 @@
+nav {
+  background: $blue;
+  //   height: calc(120px + 2remd);
+  .site-logo {
+    // width: 100px;
+    // height: 100%;
+    img {
+      height: 116.5px;
+    }
+    flex: 1;
+  }
+
+  .site-name {
+    flex: 1;
+    margin-right: 1rem;
+  }
+  h1 {
+    width: 160px;
+    margin: 0;
+    // height: 140px;
+    line-height: 1;
+    color: #fff;
+    flex: 1;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    flex: 3;
+    list-style: none;
+    a {
+      color: #fff;
+      text-transform: uppercase;
+    }
+    li {
+      margin-right: 1rem;
+      &:last-child {
+        margin: 0;
+      }
+      h3 {
+        margin: 0;
+        color: #fff;
+        font-size: 1.45rem;
+      }
+    }
+  }
+}
