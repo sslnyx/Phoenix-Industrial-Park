@@ -1,3 +1,15 @@
 $blue: #203066;
-$gray: #807F70;
-$bg: #F5F5F5;
+$gray: #807f70;
+$bg: #f5f5f5;
+
+.text-blue {
+  color: $blue;
+}
+
+.text-gray {
+  color: $gray;
+}
+
+.text-bg {
+  color: $bg;
+}

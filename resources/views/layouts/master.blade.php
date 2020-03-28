@@ -29,6 +29,9 @@
         const js_obj_data = JSON.parse(js_data);
     </script>
 
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ env('GMAP_KEY')}}">
+    </script>
+
     <script src="{{asset('js/all.js')}}"></script>
 </body>
 

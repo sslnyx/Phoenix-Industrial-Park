@@ -33,6 +33,7 @@ mix.scripts(
     "public/js/popper.min.js",
     "public/js/bootstrap.bundle.min.js",
     "public/js/swiper.min.js",
+    "public/js/svg-injector.min.js",
     "public/js/app.js"
   ],
   "public/js/all.js"

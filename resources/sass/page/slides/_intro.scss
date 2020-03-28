@@ -27,6 +27,9 @@
 .intro-footer {
   //   height: 30%;
   padding: 1rem;
+  .content {
+    padding: 0;
+  }
 
   p {
     margin: 0;
@@ -36,6 +39,7 @@
 
 .slide-content {
   // height: 100vh;
+  width: 100%;
   min-height: 600px;
 }
 

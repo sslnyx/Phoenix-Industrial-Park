@@ -20,7 +20,8 @@ p {
 }
 
 .content {
-  max-width: 1200px;
+  width: 1200px;
+  max-width: 100%;
   margin: auto;
   text-align: center;
   padding: 50px 0;
@@ -28,10 +29,6 @@ p {
 
 .bg-blue {
   background: $blue;
-}
-
-.text-blue {
-  color: $blue;
 }
 
 .swiper-slide {

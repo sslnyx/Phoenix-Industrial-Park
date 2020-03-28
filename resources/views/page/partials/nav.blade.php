@@ -4,7 +4,7 @@
             <img src="{{asset('/img/icon/00_logo.svg')}}" alt="logo">
         </div>
         <div class="site-name">
-            <h1>{{ config('app.name') }}</h1>
+            <h1 class="text-left">{{ config('app.name') }}</h1>
 
         </div>
         <ul class="justify-content-end d-none d-xl-flex">
