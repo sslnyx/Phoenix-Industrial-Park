@@ -32,8 +32,10 @@ mix.scripts(
     "public/js/jquery-3.4.1.min.js",
     "public/js/popper.min.js",
     "public/js/bootstrap.bundle.min.js",
-    "public/js/swiper.min.js",
+    "public/js/swiper.js",
     "public/js/svg-injector.min.js",
+    "public/js/axios.min.js",
+    "public/js/anime.min.js",
     "public/js/app.js"
   ],
   "public/js/all.js"

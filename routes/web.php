@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('page.index');
 });
+
+Route::get('/thank-you', function () {
+    return view('page.thankyou');
+})->name('thankyou');
+
+
+Route::post('/post', 'RegistrantController')->name('register.post');

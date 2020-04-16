@@ -7,7 +7,7 @@
             <h1 class="text-left">{{ config('app.name') }}</h1>
 
         </div>
-        <ul class="justify-content-end d-none d-xl-flex">
+        <ul class="justify-content-end d-none d-lg-flex">
             @foreach (config('data.slides') as $slide => $value)
 
             <li>
@@ -18,5 +18,11 @@
             </li>
             @endforeach
         </ul>
+
+        <div class="hamburger d-block d-md-none">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
     </div>
 </nav>

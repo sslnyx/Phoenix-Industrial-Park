@@ -18,10 +18,31 @@
 </head>
 
 <body>
-
     <main>
+        <div class="mainMenu">
+            <div class="site-name">
+                <h1 class="text-left text-white">{{ config('app.name') }}</h1>
+                <div class="close"></div>
+
+            </div>
+            <div class="li-wrapper">
+                <ul class="">
+                    @foreach (config('data.slides') as $slide => $value)
+                    <li>
+                        <a href="#">
+                            <h3>
+                                {{ $value['name'] }}</h3>
+                        </a>
+                    </li>
+                    @endforeach
+                </ul>
+
+            </div>
+        </div>
+
         @yield('content')
     </main>
+
 
 
     <script>
@@ -29,7 +50,7 @@
         const js_obj_data = JSON.parse(js_data);
     </script>
 
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ env('GMAP_KEY')}}">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ env('GMAP_KEY') }}">
     </script>
 
     <script src="{{asset('js/all.js')}}"></script>

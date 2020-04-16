@@ -5,4 +5,41 @@
     width: 1200px;
     max-width: 100%;
   }
+
+  h3 {
+    cursor: pointer;
+    color: $gray;
+    transition: all 0.5s ease;
+  }
+
+  // path.st4s {
+  //   pointer-events: none;
+  //   fill: #203066;
+  //   transition: all 0.5s ease;
+  // }
+
+  [data-type="floorplan"] {
+    cursor: pointer;
+    polygon {
+      opacity: 0;
+      transition: all 0.5s ease;
+    }
+    path {
+      transition: all 0.5s ease;
+      fill: $blue;
+    }
+  }
+
+  .active {
+    polygon {
+      opacity: 1;
+    }
+    path {
+      fill: #fff;
+    }
+  }
+
+  .btn-active {
+    color: $blue;
+  }
 }

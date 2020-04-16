@@ -30,7 +30,7 @@ return [
         'Security light fixture',
         'Parking',
         'Accessibility',
-        'Washroom',
+        'Washrooms',
         'Lighting',
     ],
 
@@ -38,9 +38,51 @@ return [
         '101' => '13,928',
         '102' => '10,563',
         '201' => '9,710',
-        '202' => '11,402'
-    ]
+        '202' => '11,402',
+    ],
 
+    'form' => [
+        'firstName' => [
+            'type' => 'text',
+            'ph' => 'First Name'
+        ],
+        'lastName' => [
+            'type' => 'text',
+            'ph' => 'Last Name'
+        ],
+        'email' => [
+            'type' => 'email',
+            'ph' => 'Email'
+        ],
+        'phone' => [
+            'type' => 'phone',
+            'ph' => 'Phone'
+        ],
+        'plans' => [
+            'req' => true,
+            'type' => 'select',
+            'ph' => 'What unit are you interested in?',
+            'option' => [
+                '101' => '13,928',
+                '102' => '10,563',
+                '201' => '9,710',
+                '202' => '11,402',
+            ],
+        ],
+        'where' => [
+            'req' => false,
+            'type' => 'select',
+            'ph' => 'How did you hear about us?',
+            'option' => [
+                'Signage',
+                'Online',
+                'Google Search',
+                'Ads',
+                'Friend / Family',
+            ],
+        ],
+
+    ],
 ]
 
 ?>
